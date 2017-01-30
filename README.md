@@ -2,16 +2,16 @@
 
 ### Getting Started
 
-Clone repo, install dependencies, then start the server:
+Obtain API key, clone repo, install dependencies, update API key value, then start the server:
 
 ```
-	obtain 5 day/3 hour forecast API key from openweathermap.org
+	> obtain 5 day/3 hour forecast API key from openweathermap.org/forecast5
 	> git clone git@github.com:kristingreenslit/react-redux-weather-browser.git
 	> cd react-redux-weather-browser
 	> npm install
+	> in src/actions/index.js, replace config.API_KEY with 'your API key'
 	> npm start
-	in src/actions/index.js, replace config.API_KEY with 'your API key'
 ```
 
-#### Original starter code: https://github.com/StephenGrider/ReduxSimpleStarter
+Original starter code: github.com/StephenGrider/ReduxSimpleStarter
 
