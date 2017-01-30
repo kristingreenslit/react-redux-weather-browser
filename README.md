@@ -1,8 +1,6 @@
 # React/Redux weather browser
 
-### Starter code: https://github.com/StephenGrider/ReduxSimpleStarter
-
-#### Getting Started
+### Getting Started
 
 Clone repo, install dependencies, then start the server:
 
@@ -14,4 +12,6 @@ Clone repo, install dependencies, then start the server:
 	> npm start
 	in src/actions/index.js, replace config.API_KEY with 'your API key'
 ```
+
+#### Original starter code: https://github.com/StephenGrider/ReduxSimpleStarter
 
