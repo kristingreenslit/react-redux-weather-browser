@@ -4,6 +4,16 @@ import { connect } from 'react-redux';
 // removed b/c no longer exporting just WeatherList as the default
 // export default class WeatherList extends Component {
 class WeatherList extends Component {
+  
+  renderWeather(cityData) {
+    const name = cityData.city.name;
+    return (
+      <tr key={name}>
+        <td>{name}</td>
+      </tr>
+    );
+  }
+
 	render() {
 		return (
       <table className="table table-hover">
@@ -16,7 +26,7 @@ class WeatherList extends Component {
           </tr>
         </thead>
         <tbody>
-
+          {this.props.weather.map(this.renderWeather)}
         </tbody>
       </table>
 		);
